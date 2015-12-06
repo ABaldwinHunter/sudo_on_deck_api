@@ -43,8 +43,8 @@ class Evaluation
     if annual_revenue > 100000
       10000
     else
-      ten_x = annual_revenue * 10
-      ten_x - ten_x % 500
+      one_tenth = annual_revenue / 10
+      return one_tenth - (one_tenth % 500)
     end
   end
 
