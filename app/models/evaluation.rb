@@ -40,13 +40,15 @@ class Evaluation
         3000
       elsif annual_revenue >= 50000
         2000
+      elsif annual_revenue >= 5000
+        500
       else
         0
       end
   end
 
   def min_amount
-    500
+    300
   end
 end
 
